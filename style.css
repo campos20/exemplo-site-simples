@@ -1,62 +1,54 @@
 body {
-	background-color: #ededed;
+	background-color: #dddddd;
+	margin: 0px;
 }
 
-h2 {
+#avatar {
+	width: 200px;
+}
+
+#topbar {
+	background-color: blue;
+	overflow: hidden;
+}
+
+#topbar a {
 	color: white;
-	background-color: black;
-	text-align: center;
-	font-size: 2em;
-}
-
-p {
-	font-family: verdana;
-	font-size: 15px;
-}
-
-span {
-	color: white;
-	background-color: red;
-}
-
-#primeira-coluna {
-	width: 30%;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px;
 	float: left;
 }
 
-#segunda-coluna {
-	width: 70%;
-	margin-left: auto;
+#topbar a:hover {
+	background-color: #dddddd;
+	color: black;
 }
 
-#paragrafos {
+#conteudo {
 	clear: both;
 }
 
-.corpo-do-texto {
-	font-family: serif;
+#img-wrapper {
+	float: left;
+	margin: 5px;
 }
 
-table {
-	width: 100%;
-	border-collapse: collapse;
+#info {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-table, th, td {
-	border: 1px solid black;
+p, li {
+	font-size: 18px;
 }
 
-thead th {
-	background: darkgray;
+p {
+	font-family: 'serif';
+	text-align: justify;
 }
 
-
-tbody tr:nth-child(odd) {
-	background: lightgray;
+h2 {
+	font-family: 'Arial Black';
 }
-
-tbody tr:hover, tfoot tr:hover {
-	background: black;
-	color: white;
-}
-
