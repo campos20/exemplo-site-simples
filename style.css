@@ -1,10 +1,11 @@
-body {
+body, html {
 	background-color: #dddddd;
 	margin: 0px;
+	height: 100%;
 }
 
 #avatar {
-	width: 200px;
+	width: 250px;
 }
 
 #topbar {
@@ -27,11 +28,18 @@ body {
 
 #conteudo {
 	clear: both;
+	overflow: auto;
+	height: 100%;
 }
 
 #img-wrapper {
+	padding: 100px;
 	float: left;
 	margin: 5px;
+}
+
+img {
+	border-radius: 20%;
 }
 
 #info {
@@ -45,10 +53,33 @@ p, li {
 }
 
 p {
+   text-indent: 30px;;
+}
+
+p {
 	font-family: 'serif';
 	text-align: justify;
 }
 
 h2 {
 	font-family: 'Arial Black';
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: blue;
+  padding: 1px;
+  margin: 0;
+  width: 100%;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+}
+
+.footer a {
+	color: white;
 }
